@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple node app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div class="container1">
+  <h1>Greeting Form</h1>
+  <form method="get" action="http://localhost:3333/greeting">
+    <label>Name:</label>
+    <input type="text" class="box" name="name" placeholder="Enter your name"><br><br>
+    <input type="submit" class="btn" value="Submit">
+  </form>
+</div>
+
+<div class="container2">
+  <h1>Addition Form</h1>
+  <form method="post" action="http://localhost:3333/addition">
+    <label>Number 1:</label>
+    <input type="number" class="box" name="num1" placeholder="Enter 1st number"> <br><br>
+    <label>Number 2:</label>
+    <input type="number" class="box" name="num2" placeholder="Enter 2nd number"> <br><br>
+    <input type="submit" class="btn" value="Submit">
+  </form>
+  </div>
+  </div>
+</body>
+</html>

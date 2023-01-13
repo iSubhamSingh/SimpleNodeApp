@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+body{
+    background-image: url("https://i.pinimg.com/736x/4e/1f/df/4e1fdfb8a7eef2adf6c6b8e33f2f00e6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Diplomata SC', cursive;font-family: 'Diplomata SC', cursive;
+    font-size: 30px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+
+}
+
+.container1{
+    height: 225px;
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container2{
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+}
